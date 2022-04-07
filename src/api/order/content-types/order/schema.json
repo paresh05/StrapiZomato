@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hotelName": {
+      "type": "string"
+    },
+    "totalPrice": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    },
+    "orderItems": {
+      "type": "json"
+    },
+    "deliveryAddress": {
+      "type": "json"
+    }
+  }
+}

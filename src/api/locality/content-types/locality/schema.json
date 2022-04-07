@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "localities",
+  "info": {
+    "singularName": "locality",
+    "pluralName": "localities",
+    "displayName": "Locality",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "places": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
